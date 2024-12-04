@@ -1,0 +1,32 @@
+.action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  margin: 3rem;
+}
+
+.action-time {
+  background-color: #3882f6;
+  color: #ffffff;
+  padding: 2rem 4rem;
+  border-radius: 8px;
+}
+
+.action-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.action-button p {
+  color: #e9d2d2;
+}
+
+button {
+  background-color: #3882f6;
+  border: 1px solid #ffffff;
+  padding: 0.85em 1.5rem;
+  border-radius: 4px;
+  color: #ffffff;
+  width: fit-content;
+}

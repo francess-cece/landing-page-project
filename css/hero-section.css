@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.hero-section {
+  color: #f9faf8;
+  background-color: #1f2937;
+}
+
+.section-content {
+  width: 60%;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  margin-left: 2rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10rem 0;
+}
+
+.header-logo {
+  font-size: 24px;
+}
+
+.secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.secondary-text a {
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 0.9;
+}
+
+button {
+  background-color: #3882f6;
+}
+
+.hero-content {
+  width: 50%;
+}
+
+.hero-left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hero-button {
+  border: none;
+  padding: 0.85em 1.5rem;
+  border-radius: 4px;
+  color: #ffffff;
+  width: fit-content;
+}
+
+.image-placeholder {
+  height: 14rem;
+  background-image: url("https://th.bing.com/th/id/OIP.D40goPBN9d09kG_94n65PgHaE8?rs=1&pid=ImgDetMain");
+  background-size: cover;
+  background-color: #928f8f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

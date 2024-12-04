@@ -1,0 +1,30 @@
+.random-information-section {
+  margin: 3rem auto 8rem;
+}
+
+.random-information-section h3 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  margin-bottom: 3rem;
+}
+
+.random-information-items {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.random-information-image {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 10px;
+  border: 3px solid #3882f6;
+}
+
+.random-information-text {
+  margin-top: 0.5rem;
+  font-size: 18px;
+  color: #1e1e1f;
+  text-align: center;
+}
